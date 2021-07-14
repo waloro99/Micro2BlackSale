@@ -1,0 +1,105 @@
+.main-footer{
+    color: white;
+    background-color: #06001B;
+    padding-top: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+}
+
+
+.barra{
+    width: 100%;
+    position: center;
+    align-items: center;
+    background-color: white;
+}
+
+.row {
+    columns: 3;
+}
+
+.row a{
+    color: white;
+    text-decoration: none;
+}
+
+.row a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+/*Imagenes de facebook e instagram en el el footer*/
+img{
+    width: 10px;
+    height: 10px;
+}
+
+.main-footer .row .col .list-unstyled1 {
+    display: flex;
+    margin-left: 20%;
+}
+
+.main-footer .row .col .list-unstyled1 .leftCol{
+    position: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.main-footer .row .col .list-unstyled1 .leftCol li{
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-footer .row .col .list-unstyled1 .rightCol{
+    position: center;
+    margin-top: 2%;
+}
+
+.main-footer .row .col .list-unstyled1 .rightCol .arribaCol{
+    display: flex;
+    margin: 2px;
+    margin-left: 15px;
+}
+
+.main-footer .row .col .list-unstyled1 .rightCol .arribaCol li{
+    width: 50px;
+    margin-left: 2px;
+}
+
+.main-footer .row .col .list-unstyled1 .rightCol .arribaCol li img{
+    width: 30px;
+    height: 30px;
+}
+
+.main-footer .row .col2 .list-unstyled2 {
+    display: flex;
+    margin: 10px;
+    width: 180%;
+}
+
+.main-footer .row .col2 .list-unstyled2 .leftCol2{
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.main-footer .row .col2 .list-unstyled2 .rightCol2{
+    margin-top: 5px;
+    margin-left: 45%;
+    line-height: 30px;
+}
+
+.list-unstyled3 li{
+    text-align: left;
+    margin-left: 45%;
+    width: 70%;
+}
+
+/* DISEÑO PARA APP */
+@media only screen and (max-width: 375px){
+    .main-footer{
+        display: none;
+    }
+}
