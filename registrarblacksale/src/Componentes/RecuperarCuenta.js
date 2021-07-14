@@ -14,7 +14,7 @@ import SaveAltIcon from '@material-ui/icons/SaveAlt';
 import DoneIcon from '@material-ui/icons/Done';
 import ClearIcon from '@material-ui/icons/Clear';
 
-const url = 'http://localhost:3306/api/v1/users/';
+const url = 'http://EC2Co-EcsEl-HCRGC0GC9UQA-1053362111.us-east-1.elb.amazonaws.com:3306/api/v1/users/';
 
 class RecuperarCuenta extends Component {
 
